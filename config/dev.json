@@ -1,0 +1,24 @@
+{
+    "PATHS": {
+        "LIB": "D:/workspace/challenges/challenge-backend-engineer-bs/lib/",
+        "MODULES": "D:/workspace/challenges/challenge-backend-engineer-bs/modules/",
+        "MODELS": "D:/workspace/challenges/challenge-backend-engineer-bs/models/"
+    },
+    "MONGODB": {
+        "URL": "mongodb://localhost:27017",
+        "OPTIONS": {
+            "poolSize": 5,
+            "auth": {
+                "user": "admin",
+                "password": "4?!1BX=Sc*8L"
+            }
+        },
+        "DB": "Exchange",
+        "COLLECTION": "rate_record"
+    },
+    "FIVEBEANS": {
+        "HOST": "challenge.aftership.net",
+        "PORT": 11300,
+        "TUBE": "Ag4MBQQOCAAIBg0PBAINAQ"
+    }
+}

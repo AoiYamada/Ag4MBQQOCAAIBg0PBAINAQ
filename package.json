@@ -1,0 +1,29 @@
+{
+  "name": "challenge-backend-engineer-bs",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^1.30.0",
+    "cross-env": "^5.1.4",
+    "fivebeans": "^1.5.0",
+    "mongodb": "^3.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-aftership": "^4.3.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=dev mocha --recursive ./test",
+    "check": "cross-env NODE_ENV=dev node ./check.js",
+    "reset": "cross-env NODE_ENV=dev node ./reset.js",
+    "producer:dev": "cross-env NODE_ENV=dev node ./producer.js",
+    "consumer:dev": "cross-env NODE_ENV=dev node ./consumer.js",
+    "lint": "eslint **/*.js --fix"
+  },
+  "author": "",
+  "license": "ISC"
+}

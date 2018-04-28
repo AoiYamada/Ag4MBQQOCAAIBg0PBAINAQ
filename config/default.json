@@ -1,0 +1,11 @@
+{
+    "BEANSTALKD": {
+        "SUCCESS_COUNT_UPPER_BOUND": 10,
+        "FAIL_COUNT_UPPER_BOUND": 3,
+        "SUCCESS_WAIT_TIME": 60,
+        "FAIL_WAIT_TIME": 3,
+        "TIMEOUT": 1,
+        "TTR": 60,
+        "CHECK_FREQUENCY": 1
+    }
+}
