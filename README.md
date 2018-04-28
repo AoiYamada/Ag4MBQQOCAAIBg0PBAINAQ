@@ -7,10 +7,15 @@ This program has two parts.
 ## Develop Environment
 
 OS - Windows 7 64-bit
+
 Nodejs - v8.11.1
+
 NPM - v5.6.0
+
 Mongodb - v3.0.6
+
 beanstalkd - provided from other party
+
 
 ## Installation
 
@@ -18,16 +23,19 @@ beanstalkd - provided from other party
 npm i
 ```
 
+
 ## Config
 
 All configs are in the */config* folder, fyr:
 https://www.npmjs.com/package/config
+
 
 ## Lint
 
 ```bash
 npm run lint
 ```
+
 
 ## Usage
 
@@ -43,11 +51,13 @@ npm run lint
 
 * The consumer will not stop automatically.
 
+
 ## Check db & tube
 
 ```bash
 npm run check
 ```
+
 
 ## Reset db & tube
 
